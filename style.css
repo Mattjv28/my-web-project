@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body { background-color: rgb(0, 180, 180);
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+form
+{
+    width: 400px;
+    height: 700px;
+    background-color: #e5e5eb;
+    display: grid;
+gap: 5px;
+}
+form h1
+{
+    text-align: center;
+     color:rgba(30, 151, 221, 0.884) ;
+}
+
+form div
+{
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+form div input
+{
+    width: 90%;
+    height: 80%;
+    margin: 10px; 
+    background-color: rgb(36, 221, 159);
+    border: none;
+    outline: none;
+    padding-left: 16px;
+    font-size: 16px;
+}
+#selection
+{
+    margin-left: 18px;
+    margin-top: 10px;
+    background-color: rgb(206, 80, 41);
+    font-size: medium;
+    cursor: pointer;
+}
+#age
+{
+    
+    margin-left: 18px;
+    background-color: rgb(206, 80, 41);
+    font-size: medium;
+    cursor: pointer;
+} 
+form span input
+{
+    margin-top: 13px;
+    margin-left: 150px;
+}
+form button
+{
+    margin-top: 4px;
+    height: 80%;
+    width: 50%;
+    margin-left: 85px;
+    cursor: pointer;
+    background-color: rgb(37, 90, 202);
+    color: #fff;
+    border: 0cap;
+}
+#titre
+{
+    background-color: rgb(212, 226, 82);
+    width: 100%;
+    height: 2cm;
+    margin-bottom: 10px;
+}
+#camp
+{
+    font-size: 50px;
+    margin-left: 13.5cm;
+    color: rgba(42, 43, 43, 0.979);
+}
